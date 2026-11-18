@@ -1,0 +1,985 @@
+{
+  "title": "The history of Wi-Fi",
+  "tagline": "From Maxwell's equations and a spark in a German lab to a Hawaiian radio network, a name chosen by a branding firm, and a router in almost every home.",
+  "intro": "Wi-Fi has no single inventor. It rests on radio waves found in the 1800s, on ideas about sharing one radio channel between many users, and on a rule change in 1985 that let anyone use certain bands without a licence. Engineers then spent years agreeing on a standard, and a brand name made it easy to buy. Who deserves credit is still argued over, and this history says so where it matters.",
+  "eras": [
+    {
+      "id": "waves",
+      "name": "Finding radio waves",
+      "from": 1861,
+      "to": 1901,
+      "color": "#c49bff",
+      "summary": "Maxwell's theory says light is an electromagnetic wave. Hertz makes radio waves in a lab, Bose sends them through walls in Calcutta, and Marconi reports signals across an ocean."
+    },
+    {
+      "id": "air",
+      "name": "Sharing the air",
+      "from": 1941,
+      "to": 1985,
+      "color": "#ffb547",
+      "summary": "Many users want one radio channel. Engineers try hiding signals, and sending and simply retrying after a collision. A US rule in 1985 opens bands to anyone who spreads their signal."
+    },
+    {
+      "id": "std",
+      "name": "A standard and a name",
+      "from": 1990,
+      "to": 2003,
+      "color": "#ff7a59",
+      "summary": "A committee agrees on one wireless LAN standard. Companies form an alliance, pick the name Wi-Fi, and a laptop maker puts it in a mass-market product."
+    },
+    {
+      "id": "speed",
+      "name": "Faster, wider, new bands",
+      "from": 1992,
+      "to": 2024,
+      "color": "#5ce1a9",
+      "summary": "Each generation adds cleverer coding, more antennas, wider channels or new spectrum. Rates climb from megabits to gigabits, and a patent dispute over the underlying ideas runs for years."
+    },
+    {
+      "id": "guard",
+      "name": "Locking the door",
+      "from": 1997,
+      "to": 2018,
+      "color": "#8ef0ff",
+      "summary": "The first encryption, WEP, is broken within a few years. WPA, WPA2 and WPA3 follow, and researchers keep finding new flaws."
+    }
+  ],
+  "events": [
+    {
+      "year": 1861,
+      "date": "1861 to 1873",
+      "era": "waves",
+      "art": "wave",
+      "key": true,
+      "title": "Light is a wave, and other waves should exist",
+      "who": "James Clerk Maxwell",
+      "where": "Scotland and England",
+      "country": "United Kingdom",
+      "text": "Maxwell built a mathematical theory of electricity and magnetism on Faraday's ideas. He proposed in the early 1860s that light is an electromagnetic effect. He presented A Dynamical Theory of the Electromagnetic Field to the Royal Society in 1864, and it was printed in 1865. His Treatise on Electricity and Magnetism followed in 1873. Oliver Heaviside later simplified the equations into the form we use today.",
+      "why": "The same theory describes the light you see and the radio waves your router sends.",
+      "box": "waves",
+      "sources": [
+        8,
+        25,
+        26
+      ]
+    },
+    {
+      "year": 1886,
+      "date": "1886 to 1888",
+      "era": "waves",
+      "art": "coil",
+      "key": true,
+      "title": "Hertz makes radio waves in a lab",
+      "who": "Heinrich Hertz",
+      "where": "Karlsruhe, Germany",
+      "country": "Germany",
+      "text": "At the Technische Hochschule in Karlsruhe, Hertz began his electrodynamics experiments in 1886 and published the wave results in 1888. He measured the wavelength and speed of the waves and showed that they reflect and refract like light. His results confirmed Maxwell's theory.",
+      "why": "It proved that waves you cannot see can cross a room.",
+      "box": "waves",
+      "sources": [
+        7,
+        27
+      ]
+    },
+    {
+      "year": 1895,
+      "date": "1894 to 1896, demonstrated 1895",
+      "era": "waves",
+      "art": "lens",
+      "key": true,
+      "title": "Bose sends millimetre waves through walls",
+      "who": "Jagadish Chandra Bose",
+      "where": "Calcutta (now Kolkata), India",
+      "country": "India",
+      "text": "At Presidency College, Bose built his own spark transmitter, horn antenna, lens and polarizer for very short waves. In 1895 he sent signals about 23 metres through two or three walls (sources differ) to ring a bell and set off gunpowder. IEEE honours the work as an early millimetre-wave communication milestone, at about 60 GHz.",
+      "why": "He showed early that short radio waves can be built, aimed and received.",
+      "box": "waves",
+      "sources": [
+        9,
+        28,
+        29
+      ]
+    },
+    {
+      "year": 1901,
+      "date": "12 December 1901",
+      "era": "waves",
+      "art": "earth",
+      "title": "Marconi reports a signal across the Atlantic (disputed)",
+      "who": "Guglielmo Marconi, with George Kemp",
+      "where": "Signal Hill, St. John's, Newfoundland",
+      "country": "Canada",
+      "text": "Marconi reported receiving faint signals from the other side of the Atlantic. His assistant George Kemp was the only witness, and the signals were too weak to operate a recorder. Stronger signals were checked before witnesses about two months later. Some historians doubt what was heard on that day.",
+      "why": "It pushed radio from lab bench to long-distance service, even if the first reception is still questioned.",
+      "box": "waves",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1941,
+      "date": "filed 10 June 1941, granted 11 August 1942",
+      "era": "air",
+      "art": "scroll",
+      "key": true,
+      "title": "A film star patents a way to hop between frequencies",
+      "who": "Hedy Lamarr (as Hedy Kiesler Markey) and George Antheil",
+      "where": "United States",
+      "country": "United States",
+      "text": "US patent 2,292,387, Secret communication system, describes a radio link that changes frequency in step at sender and receiver. Both read matching paper strips, like player-piano rolls. The aim was to stop enemies jamming radio-guided torpedoes. Sources disagree on what the US Navy did with the idea.",
+      "why": "It is an early spread-spectrum idea. It is not part of Wi-Fi, so the popular claim that she invented Wi-Fi is not accurate.",
+      "box": "waves",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 1971,
+      "date": "June 1971",
+      "era": "air",
+      "art": "earth",
+      "key": true,
+      "title": "ALOHAnet: radio terminals that just retry",
+      "who": "Norman Abramson, Franklin Kuo and the University of Hawai'i team",
+      "where": "Honolulu, Hawai'i, USA",
+      "country": "United States",
+      "text": "In June 1971 the ALOHA network began giving radio access to the University of Hawai'i's computers from remote terminals. Stations sent when they had data, and sent again after a collision. IEEE calls it the first demonstration that a channel can be shared well at scale by simple random access.",
+      "why": "Sharing by chance, not by a central controller, is the root of how Wi-Fi shares the air.",
+      "box": "air",
+      "sources": [
+        11,
+        30
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "1973",
+      "era": "air",
+      "art": "plug",
+      "title": "Ethernet puts the idea on a cable",
+      "who": "Robert Metcalfe and David Boggs",
+      "where": "Xerox PARC, Palo Alto, USA",
+      "country": "United States",
+      "text": "Metcalfe wrote the 1973 Ethernet memo, and he and Boggs built an experimental version that year. The design drew on ALOHAnet and the ARPANET. IEEE describes it as the ALOHA idea moved onto a cable with no central control.",
+      "why": "Wi-Fi was built as a wireless cousin of Ethernet and inherited ideas about sharing a medium.",
+      "box": "air",
+      "sources": [
+        12,
+        11
+      ]
+    },
+    {
+      "year": 1983,
+      "date": "approved 24 June 1983",
+      "era": "air",
+      "art": "plug",
+      "title": "Ethernet becomes an IEEE standard",
+      "who": "IEEE 802.3 working group",
+      "where": "United States",
+      "country": "United States",
+      "text": "The DIX group had published a 10 Mbit/s Ethernet specification in September 1980. IEEE approved the 802.3 standard in June 1983. It carries the title ANSI/IEEE Std 802.3-1985.",
+      "why": "It set the pattern: the same IEEE 802 family would later get a number for radio, 802.11.",
+      "box": "story",
+      "sources": [
+        12
+      ]
+    },
+    {
+      "year": 1985,
+      "date": "9 May 1985",
+      "era": "air",
+      "art": "microwave",
+      "key": true,
+      "title": "The FCC lets anyone use spread spectrum",
+      "who": "US Federal Communications Commission",
+      "where": "Washington, USA",
+      "country": "United States",
+      "text": "On 9 May 1985 the FCC adopted rules allowing spread-spectrum radio in the ISM bands without a licence, with a 1 W limit, according to a slide in an IEEE 802 talk. The FCC order itself was not checked.",
+      "why": "Without a licence-free band there would be no cheap Wi-Fi.",
+      "box": "waves",
+      "sources": [
+        13,
+        1
+      ]
+    },
+    {
+      "year": 1990,
+      "date": "1990, project approved 21 March 1991",
+      "era": "std",
+      "art": "person",
+      "title": "IEEE starts a wireless LAN working group",
+      "who": "Vic Hayes and the IEEE 802.11 group",
+      "where": "Netherlands and USA",
+      "country": "Netherlands",
+      "text": "IEEE approved the project that became 802.11 on 21 March 1991. Vic Hayes, a Dutch engineer, helped set up the working group and chaired it. It had to find one standard that rival makers would all accept.",
+      "why": "A shared standard let different brands of radio talk to each other.",
+      "box": "story",
+      "sources": [
+        2,
+        24
+      ]
+    },
+    {
+      "year": 1991,
+      "date": "c. 1987 to 1991",
+      "era": "std",
+      "art": "computer",
+      "title": "WaveLAN, a wireless network for shop tills",
+      "who": "NCR and AT&T",
+      "where": "Nieuwegein, Netherlands",
+      "country": "Netherlands",
+      "text": "NCR and AT&T built a forerunner of 802.11 called WaveLAN, first meant for cashier systems. Early products ran at 1 and 2 Mbit/s. IEEE's CSIRO milestone page says Australia, the US and the Netherlands each claim to have invented Wi-Fi, and dates WaveLAN differently from other pages.",
+      "why": "Wireless LANs were already for sale before the standard existed.",
+      "box": "story",
+      "sources": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "year": 1992,
+      "date": "1992 (priority date 27 November 1992)",
+      "era": "speed",
+      "art": "chip",
+      "key": true,
+      "title": "CSIRO builds a wireless LAN that copes with echoes",
+      "who": "John O'Sullivan and the CSIRO Radiophysics team",
+      "where": "Sydney, Australia",
+      "country": "Australia",
+      "text": "Indoors, radio bounces off walls and arrives as echoes. CSIRO's team combined OFDM with error correction to cope with that, and built a prototype in 1992. IEEE's milestone page says CSIRO did not invent OFDM or error correction, only this combination. The method was later built into 802.11a and 802.11g.",
+      "why": "Splitting data over many slow carriers is how Wi-Fi handles echoes in a house.",
+      "box": "bits",
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1996,
+      "date": "granted 23 January 1996",
+      "era": "speed",
+      "art": "scroll",
+      "title": "US patent 5,487,069 granted to CSIRO",
+      "who": "O'Sullivan, Daniels, Percival, Ostry and Deane",
+      "where": "United States",
+      "country": "Australia",
+      "text": "US patent 5,487,069, Wireless LAN, was filed on 23 November 1993 with a priority date of 27 November 1992. It names five inventors and lists CSIRO as owner. Other pages give different patent dates, so this one comes from the patent record.",
+      "why": "It became the basis of a long licensing fight with makers of Wi-Fi devices.",
+      "box": "bits",
+      "sources": [
+        4,
+        3
+      ]
+    },
+    {
+      "year": 1997,
+      "date": "approved 26 June 1997",
+      "era": "std",
+      "art": "chip",
+      "key": true,
+      "title": "The first 802.11 standard: 2 Mbit/s",
+      "who": "IEEE 802.11 working group",
+      "where": "United States",
+      "country": "United States",
+      "text": "IEEE approved 802.11-1997 on 26 June 1997. It ran in the 2.4 GHz band at up to 2 Mbit/s, which is the theoretical maximum rate. Real speeds were lower.",
+      "why": "It was the first agreed rulebook for wireless LANs.",
+      "box": "story",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "approved 16 September 1999",
+      "era": "std",
+      "art": "sinewave",
+      "title": "802.11b and 802.11a",
+      "who": "IEEE 802.11 working group",
+      "where": "United States",
+      "country": "United States",
+      "text": "IEEE approved both amendments on the same day. 802.11b stayed in 2.4 GHz and reached 11 Mbit/s, and it became the first widely accepted version. 802.11a moved to 5 GHz with OFDM and reached 54 Mbit/s. These are theoretical maximum rates.",
+      "why": "802.11b made Wi-Fi cheap enough to sell. 802.11a showed what OFDM could do.",
+      "box": "bits",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "1999, name used from August 1999",
+      "era": "std",
+      "art": "word",
+      "key": true,
+      "title": "Wi-Fi gets its name and an alliance",
+      "who": "Wi-Fi Alliance and the brand firm Interbrand",
+      "where": "United States",
+      "country": "United States",
+      "text": "Several companies formed a group in 1999 to hold the trademark and promote 802.11 products. Wikipedia says the brand consultancy Interbrand coined the name Wi-Fi, which first appeared commercially in August 1999. The Alliance's own history says it announced its official name in 2000.",
+      "why": "A short name and a logo told buyers that devices from different makers would work together.",
+      "box": "story",
+      "sources": [
+        1,
+        14
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "21 July 1999",
+      "era": "std",
+      "art": "computer",
+      "key": true,
+      "title": "Apple puts Wi-Fi in a laptop and calls it AirPort",
+      "who": "Apple, with Lucent Technologies",
+      "where": "Macworld Expo, New York, USA",
+      "country": "United States",
+      "text": "Steve Jobs showed AirPort with the new iBook. A base station cost about $300 and a card for the iBook about $100. It ran at up to 11 Mbit/s, reached about 150 feet and served up to ten devices. Wikipedia calls it the first mass consumer product with Wi-Fi.",
+      "why": "It showed ordinary people a laptop with no cable.",
+      "box": "signal",
+      "sources": [
+        22,
+        1
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "August 2001",
+      "era": "guard",
+      "art": "resistor",
+      "title": "WEP is broken",
+      "who": "Scott Fluhrer, Itsik Mantin and Adi Shamir",
+      "where": "Published as a paper in 2001",
+      "country": "International",
+      "text": "WEP, the original 802.11 encryption, used a 24-bit initialisation value. In 2001 these researchers showed that a passive listener could recover the RC4 key just by watching traffic. Later work cut the time to minutes. In 2004 IEEE deprecated both WEP key sizes.",
+      "why": "It showed that wireless needs strong encryption from the start.",
+      "box": "join",
+      "sources": [
+        20
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "2001",
+      "era": "speed",
+      "art": "chip",
+      "title": "A CMOS 5 GHz Wi-Fi chip",
+      "who": "Teresa Meng and Atheros",
+      "where": "United States",
+      "country": "United States",
+      "text": "Meng helped found T-Span Systems in 1998 to commercialise her CMOS wireless work. It was later named Atheros. IEEE Spectrum says that in 2001 it introduced the industry's first CMOS transceiver at 5 GHz, an 802.11a chipset. This is the company's claim as reported by IEEE Spectrum.",
+      "why": "Cheap silicon is what put Wi-Fi inside every phone.",
+      "box": "bits",
+      "sources": [
+        23
+      ]
+    },
+    {
+      "year": 2003,
+      "date": "approved 12 June 2003",
+      "era": "std",
+      "art": "sinewave",
+      "title": "802.11g: 54 Mbit/s in the old band",
+      "who": "IEEE 802.11 working group",
+      "where": "United States",
+      "country": "United States",
+      "text": "802.11g brought the 54 Mbit/s of 802.11a to the 2.4 GHz band. It stayed compatible with 802.11b. The 54 Mbit/s figure is a theoretical maximum.",
+      "why": "Owners of 802.11b gear could upgrade without losing it.",
+      "box": "story",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "year": 2003,
+      "date": "2003",
+      "era": "guard",
+      "art": "window",
+      "title": "WPA replaces WEP",
+      "who": "Wi-Fi Alliance",
+      "where": "United States",
+      "country": "United States",
+      "text": "In 2003 the Wi-Fi Alliance announced that Wi-Fi Protected Access, WPA, had superseded WEP. It was based on a subset of a draft of IEEE 802.11i.",
+      "why": "It was a quick fix while the full security standard was finished.",
+      "box": "join",
+      "sources": [
+        20
+      ]
+    },
+    {
+      "year": 2004,
+      "date": "2004",
+      "era": "guard",
+      "art": "digital",
+      "title": "WPA2 and AES",
+      "who": "IEEE 802.11i and the Wi-Fi Alliance",
+      "where": "United States",
+      "country": "United States",
+      "text": "IEEE ratified 802.11i in 2004, and the Alliance branded it WPA2. It replaced RC4 with AES encryption.",
+      "why": "Your Wi-Fi password still works through this design, in the four-step handshake.",
+      "box": "join",
+      "sources": [
+        20,
+        19
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "2009 and 2012",
+      "era": "speed",
+      "art": "building",
+      "title": "CSIRO's Wi-Fi patent pays off",
+      "who": "CSIRO",
+      "where": "Australia and United States",
+      "country": "Australia",
+      "text": "Wikipedia says CSIRO received about $200 million in 2009 after settling with 14 technology companies. It reports a further $220 million in 2012 after proceedings with 23 companies. Who invented Wi-Fi is still argued over.",
+      "why": "It showed that the ideas inside Wi-Fi were valuable, and that credit is shared.",
+      "box": "bits",
+      "sources": [
+        1,
+        3
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "approved 11 September 2009",
+      "era": "speed",
+      "art": "wave",
+      "key": true,
+      "title": "802.11n brings MIMO",
+      "who": "IEEE 802.11 working group",
+      "where": "United States",
+      "country": "United States",
+      "text": "IEEE approved 802.11n on 11 September 2009. It used several antennas at once (MIMO), 40 MHz channels, and both 2.4 and 5 GHz. The theoretical top rate was 600 Mbit/s, with four streams. Real throughput was lower.",
+      "why": "Several antennas turn echoes from a problem into extra capacity, and the idea runs through every later generation.",
+      "box": "signal",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "year": 2013,
+      "date": "approved 9 December 2013",
+      "era": "speed",
+      "art": "digital",
+      "title": "802.11ac: wider channels at 5 GHz",
+      "who": "IEEE 802.11 working group",
+      "where": "United States",
+      "country": "United States",
+      "text": "802.11ac ran only at 5 GHz. It allowed channels up to 160 MHz and up to eight streams, and added multi-user MIMO. Its theoretical maximum is 6,933 Mbit/s with eight streams on 160 MHz. Most devices have far fewer streams.",
+      "why": "Doubling the channel width doubles the top rate.",
+      "box": "story",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "year": 2017,
+      "date": "October 2017",
+      "era": "guard",
+      "art": "bolt",
+      "title": "KRACK: a flaw in the WPA2 handshake",
+      "who": "Mathy Vanhoef and Frank Piessens",
+      "where": "KU Leuven, Belgium",
+      "country": "Belgium",
+      "text": "Vanhoef and Piessens showed that replaying a message in the WPA2 four-way handshake can force a device to reuse a key and nonce. An attacker could then decrypt some traffic. The attack does not reveal the Wi-Fi password. The paper was presented at ACM CCS 2017.",
+      "why": "Even a standard checked for years had a hole in how its handshake worked.",
+      "box": "join",
+      "sources": [
+        19
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "25 June 2018",
+      "era": "guard",
+      "art": "window",
+      "title": "WPA3",
+      "who": "Wi-Fi Alliance",
+      "where": "Austin, USA",
+      "country": "United States",
+      "text": "The Alliance announced WPA3. WPA3-Personal uses Simultaneous Authentication of Equals, which resists password guessing even with weak passwords. WPA3-Enterprise offers a 192-bit-equivalent suite. Protected Management Frames are required.",
+      "why": "It tries to fix weaknesses found in WPA2 at the design stage.",
+      "box": "join",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "2018",
+      "era": "speed",
+      "art": "word",
+      "title": "Wi-Fi gets version numbers",
+      "who": "Wi-Fi Alliance",
+      "where": "United States",
+      "country": "United States",
+      "text": "In 2018 the Alliance began using simple generation numbers: Wi-Fi 4 for 802.11n, 5 for ac and 6 for ax. The IEEE names did not change.",
+      "why": "A buyer no longer needs to know what 802.11ac means.",
+      "box": "story",
+      "sources": [
+        1,
+        0
+      ]
+    },
+    {
+      "year": 2020,
+      "date": "23 April 2020",
+      "era": "speed",
+      "art": "wave",
+      "key": true,
+      "title": "The FCC opens 6 GHz to Wi-Fi",
+      "who": "US Federal Communications Commission",
+      "where": "Washington, USA",
+      "country": "United States",
+      "text": "The FCC adopted rules opening 1,200 MHz of spectrum, 5.925 to 7.125 GHz, to unlicensed use. Indoor low-power devices may use all of it. Standard-power devices may use 850 MHz, under an automated coordination system that protects existing users. The FCC said this multiplies the spectrum available to Wi-Fi by nearly five.",
+      "why": "It gave Wi-Fi room for very wide channels.",
+      "box": "waves",
+      "sources": [
+        18,
+        31
+      ]
+    },
+    {
+      "year": 2021,
+      "date": "7 January 2021",
+      "era": "speed",
+      "art": "wave",
+      "title": "Wi-Fi 6E certification starts",
+      "who": "Wi-Fi Alliance",
+      "where": "Austin, USA",
+      "country": "United States",
+      "text": "The Alliance made Wi-Fi 6E certification available for devices in the 6 GHz band. Its release says the UK, Europe, Chile, South Korea and the United Arab Emirates had already made 6 GHz available for Wi-Fi. Other countries were moving that way.",
+      "why": "It showed that a US decision was spreading around the world.",
+      "box": "waves",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "year": 2021,
+      "date": "approved 1 February 2021",
+      "era": "speed",
+      "art": "chip",
+      "title": "802.11ax, Wi-Fi 6",
+      "who": "IEEE 802.11 working group",
+      "where": "United States",
+      "country": "United States",
+      "text": "IEEE approved 802.11ax on 1 February 2021. It introduced OFDMA, which splits a channel among several users at once. The theoretical maximum is 9,608 Mbit/s.",
+      "why": "It made Wi-Fi better at serving many devices at once.",
+      "box": "air",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "8 January 2024 certification, IEEE approval 26 September 2024",
+      "era": "speed",
+      "art": "chip",
+      "title": "Wi-Fi 7 and 802.11be",
+      "who": "Wi-Fi Alliance and IEEE",
+      "where": "United States",
+      "country": "United States",
+      "text": "The Alliance began certifying Wi-Fi 7 on 8 January 2024, and IEEE approved 802.11be on 26 September 2024. It adds 320 MHz channels in 6 GHz, 4096-QAM and multi-link operation. Its theoretical maximum is about 23,059 Mbit/s with eight streams. Some sources quote about 46,120 Mbit/s, which assumes 16 streams.",
+      "why": "Wider channels and denser coding again raise the ceiling, though real speeds stay far below it.",
+      "box": "story",
+      "sources": [
+        15,
+        21,
+        2
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Radio waves made and measured in a lab",
+      "value": "1886 to 1888",
+      "who": "Heinrich Hertz, Karlsruhe, Germany"
+    },
+    {
+      "label": "Millimetre-wave communication demonstrated at 60 GHz",
+      "value": "1895",
+      "who": "J. C. Bose, Presidency College, Calcutta, India"
+    },
+    {
+      "label": "Frequency-hopping radio patent by a film star",
+      "value": "1941 (granted 1942)",
+      "who": "Hedy Lamarr and George Antheil, USA"
+    },
+    {
+      "label": "Radio network shared by simple random access",
+      "value": "June 1971",
+      "who": "ALOHAnet, University of Hawai'i"
+    },
+    {
+      "label": "FCC rules for unlicensed spread-spectrum radio",
+      "value": "9 May 1985",
+      "who": "US Federal Communications Commission"
+    },
+    {
+      "label": "First 802.11 standard, 2 Mbit/s",
+      "value": "26 June 1997",
+      "who": "IEEE 802.11 working group"
+    },
+    {
+      "label": "Mass-market consumer product with Wi-Fi (per Wikipedia)",
+      "value": "21 July 1999",
+      "who": "Apple AirPort for the iBook"
+    },
+    {
+      "label": "Claimed first CMOS 5 GHz 802.11a transceiver",
+      "value": "2001",
+      "who": "Atheros, reported by IEEE Spectrum"
+    }
+  ],
+  "people": [
+    {
+      "name": "James Clerk Maxwell",
+      "life": "1831 – 1879",
+      "role": "Physicist",
+      "from": "Scotland",
+      "note": "His theory treats light as an electromagnetic wave."
+    },
+    {
+      "name": "Heinrich Hertz",
+      "life": "1857 – 1894",
+      "role": "Physicist",
+      "from": "Germany",
+      "note": "Made and measured radio waves in Karlsruhe."
+    },
+    {
+      "name": "Jagadish Chandra Bose",
+      "life": "1858 – 1937",
+      "role": "Physicist",
+      "from": "India",
+      "note": "Built millimetre-wave transmitters, horn antennas and lenses in Calcutta."
+    },
+    {
+      "name": "Guglielmo Marconi",
+      "life": "",
+      "role": "Radio pioneer",
+      "from": "Italy",
+      "note": "Reported radio signals across the Atlantic, though the 1901 reception is disputed."
+    },
+    {
+      "name": "Hedy Lamarr",
+      "life": "1914 – 2000",
+      "role": "Actress and inventor",
+      "from": "Austria, later USA",
+      "note": "Co-patented a frequency-hopping radio link in 1941 with George Antheil."
+    },
+    {
+      "name": "George Antheil",
+      "life": "",
+      "role": "Composer and inventor",
+      "from": "USA",
+      "note": "Co-patented the synchronised paper-strip idea with Hedy Lamarr."
+    },
+    {
+      "name": "Norman Abramson and Franklin Kuo",
+      "life": "",
+      "role": "Engineers and professors",
+      "from": "USA",
+      "note": "Led the team that built ALOHAnet at the University of Hawai'i."
+    },
+    {
+      "name": "Robert Metcalfe and David Boggs",
+      "life": "",
+      "role": "Engineers",
+      "from": "USA",
+      "note": "Built the first Ethernet at Xerox PARC."
+    },
+    {
+      "name": "Vic Hayes",
+      "life": "born 1941",
+      "role": "Engineer, founding chair of IEEE 802.11",
+      "from": "Netherlands (born in Surabaya, Dutch East Indies)",
+      "note": "Often called the father of Wi-Fi, a popular rather than official title."
+    },
+    {
+      "name": "John O'Sullivan",
+      "life": "",
+      "role": "Engineer, CSIRO team leader",
+      "from": "Australia",
+      "note": "Led the group behind US patent 5,487,069."
+    },
+    {
+      "name": "Teresa Meng",
+      "life": "",
+      "role": "Professor and co-founder of Atheros",
+      "from": "USA",
+      "note": "Helped found the company that built an early CMOS 802.11a chipset."
+    },
+    {
+      "name": "Mathy Vanhoef",
+      "life": "",
+      "role": "Security researcher",
+      "from": "Belgium",
+      "note": "Found KRACK with Frank Piessens."
+    }
+  ],
+  "series": [
+    {
+      "id": "rate",
+      "title": "Theoretical maximum data rate of each 802.11 generation",
+      "unit": "Mbit/s",
+      "log": true,
+      "after": "speed",
+      "caption": "These are headline PHY rates under the best conditions, such as many streams and wide channels. Real speeds are lower and depend on the setup.",
+      "points": [
+        {
+          "year": 1997,
+          "value": 2,
+          "label": "802.11 (1997): 2 Mbit/s"
+        },
+        {
+          "year": 1999,
+          "value": 11,
+          "label": "802.11b (1999): 11 Mbit/s"
+        },
+        {
+          "year": 1999,
+          "value": 54,
+          "label": "802.11a (1999): 54 Mbit/s"
+        },
+        {
+          "year": 2003,
+          "value": 54,
+          "label": "802.11g (2003): 54 Mbit/s"
+        },
+        {
+          "year": 2009,
+          "value": 600,
+          "label": "802.11n (2009): 600 Mbit/s with 4 streams and 40 MHz"
+        },
+        {
+          "year": 2013,
+          "value": 6933,
+          "label": "802.11ac (2013): 6,933 Mbit/s with 8 streams and 160 MHz"
+        },
+        {
+          "year": 2021,
+          "value": 9608,
+          "label": "802.11ax (approved 2021): 9,608 Mbit/s with 8 streams and 160 MHz"
+        },
+        {
+          "year": 2024,
+          "value": 23059,
+          "label": "802.11be (2024): 23,059 Mbit/s with 8 streams and 320 MHz (about 46,120 if 16 streams were counted)"
+        }
+      ]
+    },
+    {
+      "id": "width",
+      "title": "Widest channel allowed by each standard",
+      "unit": "MHz",
+      "log": true,
+      "after": "speed",
+      "caption": "Wider channels carry more data but need more free spectrum, which is why 6 GHz matters.",
+      "points": [
+        {
+          "year": 1997,
+          "value": 22,
+          "label": "802.11 (1997): 22 MHz"
+        },
+        {
+          "year": 2009,
+          "value": 40,
+          "label": "802.11n (2009): 40 MHz"
+        },
+        {
+          "year": 2013,
+          "value": 160,
+          "label": "802.11ac (2013): up to 160 MHz"
+        },
+        {
+          "year": 2021,
+          "value": 160,
+          "label": "802.11ax (2021): 160 MHz (as 80+80)"
+        },
+        {
+          "year": 2024,
+          "value": 320,
+          "label": "802.11be (2024): 320 MHz, 6 GHz only"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "The 2.4 GHz band that Wi-Fi uses is an ISM band that other devices, such as microwave ovens, also use. The FCC's 1985 rules let spread-spectrum radio use ISM bands without a licence.",
+    "In 1895 Bose sent waves about 23 metres through two or three walls to ring a bell and set off gunpowder.",
+    "Hedy Lamarr's patent described a transmitter and receiver reading matching paper strips, like a player-piano roll. It is not the basis of Wi-Fi.",
+    "IEEE's CSIRO milestone page says Australia, the US and the Netherlands each claim to have invented Wi-Fi, and there is no global agreement.",
+    "WEP used a 24-bit initialisation value, which has about a 50% chance of repeating after roughly 5,000 packets."
+  ],
+  "sources": [
+    {
+      "title": "IEEE 802.11",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IEEE_802.11"
+    },
+    {
+      "title": "Wi-Fi",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wi-Fi"
+    },
+    {
+      "title": "802.11 timelines (approval dates for each amendment)",
+      "publisher": "IEEE 802.11 Working Group",
+      "url": "https://www.ieee802.org/11/Reports/802.11_Timelines.htm"
+    },
+    {
+      "title": "Milestone proposal: OFDM with error correction for wireless networks, 1992 (Australian contributions to Wi-Fi)",
+      "publisher": "Engineering and Technology History Wiki (IEEE)",
+      "url": "https://ieeemilestones.ethw.org/Milestone-Proposal:Orthogonal_Frequency-Division_Multiplexing_(OFDM)_with_error_correction_for_wireless_networks,_1992"
+    },
+    {
+      "title": "US5487069A: Wireless LAN",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US5487069A/en"
+    },
+    {
+      "title": "US2292387A: Secret communication system",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US2292387A/en"
+    },
+    {
+      "title": "Hedy Lamarr",
+      "publisher": "MIT Lemelson Center",
+      "url": "https://lemelson.mit.edu/resources/hedy-lamarr"
+    },
+    {
+      "title": "Heinrich Hertz",
+      "publisher": "Engineering and Technology History Wiki (IEEE)",
+      "url": "https://ethw.org/Heinrich_Hertz"
+    },
+    {
+      "title": "James Clerk Maxwell",
+      "publisher": "Engineering and Technology History Wiki (IEEE)",
+      "url": "https://ethw.org/James_Clerk_Maxwell"
+    },
+    {
+      "title": "Milestones: First Millimeter-wave Communication Experiments by J.C. Bose, 1894-96",
+      "publisher": "Engineering and Technology History Wiki (IEEE)",
+      "url": "https://ethw.org/Milestones:First_Millimeter-wave_Communication_Experiments_by_J.C._Bose,_1894-96"
+    },
+    {
+      "title": "Milestones: Reception of Transatlantic Radio Signals, 1901",
+      "publisher": "Engineering and Technology History Wiki (IEEE)",
+      "url": "https://ethw.org/Milestones:Reception_of_Transatlantic_Radio_Signals,_1901"
+    },
+    {
+      "title": "Milestones: Demonstration of the ALOHA Packet Radio Data Network, 1971",
+      "publisher": "Engineering and Technology History Wiki (IEEE)",
+      "url": "https://ethw.org/Milestones:Demonstration_of_the_ALOHA_Packet_Radio_Data_Network,_1971"
+    },
+    {
+      "title": "Milestones: Ethernet Local Area Network (LAN), 1973-1985",
+      "publisher": "Engineering and Technology History Wiki (IEEE)",
+      "url": "https://ethw.org/Milestones:Ethernet_Local_Area_Network_%28LAN%29%2C_1973-1985"
+    },
+    {
+      "title": "Spread spectrum talk (slide: FCC rules of 9 May 1985, 1 W limit)",
+      "publisher": "IEEE 802 tutorial",
+      "url": "https://ieee802.org/802_tutorials/04-March/Revised-802-SS-talk.pdf"
+    },
+    {
+      "title": "History",
+      "publisher": "Wi-Fi Alliance",
+      "url": "https://www.wi-fi.org/who-we-are/history"
+    },
+    {
+      "title": "Wi-Fi Alliance introduces Wi-Fi CERTIFIED 7",
+      "publisher": "Wi-Fi Alliance",
+      "url": "https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-introduces-wi-fi-certified-7"
+    },
+    {
+      "title": "Wi-Fi Alliance introduces Wi-Fi CERTIFIED WPA3 security",
+      "publisher": "Wi-Fi Alliance",
+      "url": "https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-introduces-wi-fi-certified-wpa3-security"
+    },
+    {
+      "title": "Wi-Fi Alliance delivers Wi-Fi 6E certification program (7 January 2021)",
+      "publisher": "Wi-Fi Alliance",
+      "url": "https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-delivers-wi-fi-6e-certification-program"
+    },
+    {
+      "title": "FCC adopts new rules for the 6 GHz band, unleashing 1,200 megahertz of spectrum for unlicensed use (23 April 2020)",
+      "publisher": "US Federal Communications Commission",
+      "url": "https://docs.fcc.gov/public/attachments/doc-363945a1.pdf"
+    },
+    {
+      "title": "KRACK Attacks: Breaking WPA2",
+      "publisher": "Mathy Vanhoef, imec-DistriNet, KU Leuven",
+      "url": "https://www.krackattacks.com/"
+    },
+    {
+      "title": "Wired Equivalent Privacy",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy"
+    },
+    {
+      "title": "IEEE 802.11be",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IEEE_802.11be"
+    },
+    {
+      "title": "Jobs keynote unveils iBook, AirPort wireless networking (21 July 1999)",
+      "publisher": "TidBITS",
+      "url": "https://tidbits.com/1999/07/21/jobs-keynote-unveils-ibook-airport-wireless-networking/"
+    },
+    {
+      "title": "Teresa Huaiying Meng is first female recipient of IEEE Alexander Graham Bell Medal",
+      "publisher": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/teresa-huaiying-meng-is-first-female-recipient-of-ieee-alexander-graham-bell-medal"
+    },
+    {
+      "title": "Vic Hayes",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vic_Hayes"
+    },
+    {
+      "title": "James Clerk Maxwell (1831 - 1879) - Biography",
+      "publisher": "MacTutor History of Mathematics Archive, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/"
+    },
+    {
+      "title": "A paper I hold to be great guns: a commentary on Maxwell (1865) 'A dynamical theory of the electromagnetic field'",
+      "publisher": "Philosophical Transactions of the Royal Society A (via PubMed Central)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360095/"
+    },
+    {
+      "title": "Heinrich Hertz (1857 - 1894) - Biography",
+      "publisher": "MacTutor History of Mathematics Archive, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hertz_Heinrich/"
+    },
+    {
+      "title": "JAGADISH CHANDRA BOSE: A Bengali pioneer of science",
+      "publisher": "ITU News, International Telecommunication Union (July 2008)",
+      "url": "https://www.itu.int/itunews/manager/display.asp?lang=en&year=2008&issue=07&ipage=34&ext=html"
+    },
+    {
+      "title": "The Work of Jagadis Chandra Bose: 100 Years of mm-Wave Research",
+      "publisher": "D. T. Emerson, National Radio Astronomy Observatory (IEEE Trans. Microwave Theory and Techniques, 1997)",
+      "url": "https://www.cv.nrao.edu/~demerson/bose/bose.htm"
+    },
+    {
+      "title": "Pioneering wireless technology ALOHAnet honored as engineering milestone",
+      "publisher": "University of Hawai'i System News (13 October 2020)",
+      "url": "https://www.hawaii.edu/news/2020/10/13/alohanet-honored-as-engineering-milestone/"
+    },
+    {
+      "title": "Report and Order and Further Notice of Proposed Rulemaking, FCC 20-51: Unlicensed Use of the 6 GHz Band",
+      "publisher": "US Federal Communications Commission",
+      "url": "https://docs.fcc.gov/public/attachments/FCC-20-51A1.pdf"
+    }
+  ]
+}
